@@ -38,7 +38,7 @@ export default function Detalle() {
         <i className="arrow left"></i> Back to list{" "}
       </Link>
       {data.map((item, index) => {
-        if (item.id === id) {
+        if (item.url === id) {
           return (
             <>
               <div className="container-fluid" id="home">

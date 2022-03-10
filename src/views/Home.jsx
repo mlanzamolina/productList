@@ -46,7 +46,7 @@ export default function Home() {
                   <div className="row">
                     <Link
                       style={{ padding: "10px", textAlign: "left" }}
-                      onClick={() => history.push(`/detalle/${item.id}`)}
+                      onClick={() => history.push(`/detalle/${item.url}`)}
                     >
                       {item.name}
                     </Link>
