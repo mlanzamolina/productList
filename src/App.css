@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  margin-top: 1%;
 }
 
 .App-logo {
@@ -35,4 +36,78 @@
   to {
     transform: rotate(360deg);
   }
+}
+#home
+{
+  text-align: justify;
+}
+#vspace
+{
+  border-radius: 10px;
+  padding: 5%;
+
+}
+.arrow {
+  border: solid grey;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
+.up {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+#back2list{
+  color: grey;
+  float: left;
+  padding: 1%;
+  width: 100%;
+}
+#back2list:link{
+  text-decoration: none;
+  text-align: left;
+}
+.container-sm{
+  background-color: whitesmoke;
+}
+.buttonAdd2Cart {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: rgb(22, 92, 255);
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.buttonAdd2Cart:hover {background-color: #3e638e}
+
+.buttonAdd2Cart:active {
+  background-color: rgb(22, 92, 255);
+  box-shadow: 0 5px #667;
+  transform: translateY(4px);
+}
+#category-font{
+  color: #999999;
 }
